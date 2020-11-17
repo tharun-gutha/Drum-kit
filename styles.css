@@ -1,0 +1,38 @@
+body {
+   /* background-color:#dde7f2; */
+   background-color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading{
+    text-align: center;
+}
+.mainHeading{
+    color: #878ecd;
+    font-size: 100px;
+}
+.drumsection{
+    text-align: center;
+    margin-top: 150px;
+}
+.drum{
+    height: 170px;
+    width: 170px;
+    font-size: 75px;
+    border-radius: 10%;
+    margin-right: 20px;
+    
+}
+.drum:hover{
+    background-color: #878ecd;
+}
+@media (max-width:380px)
+{
+    .drum{
+        height: 100px;
+        width: 100px;
+        font-size: 40px;
+        border-radius: 10%;
+        margin:20px; 
+    }
+}
+
